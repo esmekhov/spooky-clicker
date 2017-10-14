@@ -1,4 +1,6 @@
 import helpers from './helpers/helpers'
+import 'bootstrap'
+import '../scss/index.scss'
 
 /**
  * An awesome script
