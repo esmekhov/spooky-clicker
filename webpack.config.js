@@ -10,7 +10,7 @@ const paths = {
 }
 
 module.exports = {
-  entry: path.join(paths.JS, 'index.js'),
+  entry: path.join(paths.JS, 'app.js'),
   output: {
     path: paths.BUILD,
     filename: 'main.bundle.js'
