@@ -9,6 +9,6 @@ export default {
    * @returns { String } - cleaned string
    */
   trim: function(string) {
-    return string.replace(/^\s+|\s+$/gm, '')
+    return string.replace(/^\s+|\s+$/gm, '');
   }
-}
+};

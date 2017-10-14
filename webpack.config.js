@@ -1,13 +1,13 @@
-const path = require('path')
-const webpack = require('webpack')
+const path = require('path');
+const webpack = require('webpack');
 
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const paths = {
   BUILD: path.resolve(__dirname, 'build'),
   SRC: path.resolve(__dirname, 'src'),
   JS: path.resolve(__dirname, 'src/js')
-}
+};
 
 module.exports = {
   entry: path.join(paths.JS, 'app.js'),
@@ -63,4 +63,4 @@ module.exports = {
     colors: true
   },
   devtool: 'source-map'
-}
+};

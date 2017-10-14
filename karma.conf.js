@@ -1,5 +1,5 @@
-process.env.CHROME_BIN = require('puppeteer').executablePath()
-const webpackConf = require('./webpack.config')
+process.env.CHROME_BIN = require('puppeteer').executablePath();
+const webpackConf = require('./webpack.config');
 
 module.exports = function(config) {
   config.set({
@@ -24,5 +24,5 @@ module.exports = function(config) {
       dir: './coverage/'
     },
     singleRun: true
-  })
-}
+  });
+};
